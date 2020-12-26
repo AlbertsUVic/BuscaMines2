@@ -1,0 +1,38 @@
+<RCC>
+    <qresource prefix="/">
+        <file>Material/Icons/3.png</file>
+        <file>Material/Icons/smile.png</file>
+        <file>Material/Icons/0.png</file>
+        <file>Material/Icons/1.png</file>
+        <file>Material/Icons/2.png</file>
+        <file>Material/Icons/4.png</file>
+        <file>Material/Icons/5.png</file>
+        <file>Material/Icons/6.png</file>
+        <file>Material/Icons/7.png</file>
+        <file>Material/Icons/8.png</file>
+        <file>Material/Icons/9.png</file>
+        <file>Material/Icons/10.png</file>
+        <file>Material/Icons/11.png</file>
+        <file>Material/Icons/12.png</file>
+        <file>Material/Icons/13.png</file>
+        <file>Material/Icons/14.png</file>
+        <file>Material/Icons/15.png</file>
+        <file>Material/Icons/16.png</file>
+        <file>Material/Icons/17.png</file>
+        <file>Material/Icons/18.png</file>
+        <file>Material/Icons/19.png</file>
+        <file>Material/Icons/20.png</file>
+        <file>Material/Icons/bomb.png</file>
+        <file>Material/Icons/bomb_white.png</file>
+        <file>Material/Icons/clinking-glasses.png</file>
+        <file>Material/Icons/freezing-face.png</file>
+        <file>Material/Icons/logo-minesweeper.png</file>
+        <file>Material/Icons/logo-minesweeper_64.png</file>
+        <file>Material/Icons/loose.png</file>
+        <file>Material/Icons/party-face.png</file>
+        <file>Material/Icons/sleeping-face.png</file>
+        <file>Material/Icons/smiling-face.png</file>
+        <file>Material/Icons/timeout.png</file>
+        <file>Material/Icons/win.png</file>
+    </qresource>
+</RCC>
