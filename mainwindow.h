@@ -17,12 +17,15 @@ public:
     MainWindow(QWidget *parent = nullptr);
     ~MainWindow();
 
-    void Mines(int i, int j);
+    void addMines();
+    void crearMatriu();
+    void checkMines();
+    void addNumbers(int, int);
 
 public slots:
-    void Contador();
+    void contador();
     void True();
-    void CrearMatriu();
+
 
 private:
     Ui::MainWindow *ui;

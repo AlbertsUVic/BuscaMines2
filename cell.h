@@ -4,6 +4,8 @@
 #include <QMainWindow>
 #include <QTimer>
 #include <QPushButton>
+#include <QDebug>
+#include <QString>
 
 class Cell : public QPushButton{
     Q_OBJECT
@@ -14,15 +16,16 @@ private:
     int numero; //atribut per al numero o -1 per una bomba
 
 public:
-    Cell(int x, int y, int numero){this->x=x; this->y=y; this->numero=numero;};
+    Cell(int x, int y, int numero){this->x=x; this->y=y; this->numero=numero; setText(QString("%1").arg(numero));};
 
-    ~Cell();
+    void setNumber(int num) {
+        numero=num;
+        setText(QString("%1").arg(numero));
+    }
 
-    void setBomba(int posX, int posY);
-
-    /*void getCellInfo () {
-
-    }*/
+    int getNumber () {
+        return numero;
+    }
 
 protected Q_SLOTS:
     void mouseLeftClick(QMouseEvent*);
